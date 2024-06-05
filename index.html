@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VoiceNotes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="language-selector">
+      <i class="fa-solid fa-globe"></i>
+      <select id="languageSelect">
+        <option value="en-US">English</option>
+        <option value="fr-FR">French</option>
+        <option value="ar-SA">Arabic</option>
+      </select>
+    </div>
+    <h1>VoiceNotes</h1>
+
+    <p class="description">No pen needed, take your notes faster !</p>
+    <div class="container">
+      <button id="startButton">Start Noting</button>
+      <button id="clearButton">Clear</button>
+      <div id="animation" class="animation"></div>
+      <p id="result"></p>
+      <button id="downloadButton">Download Text</button>
+      <footer>© made by Mohammed Nainia</footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

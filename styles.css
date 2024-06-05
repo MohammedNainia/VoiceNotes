@@ -130,3 +130,7 @@ footer {
   justify-content: center;
   height: 60vh;
 }
+
+footer {
+  text-decoration: none;
+}
